@@ -1,5 +1,10 @@
 # Complete list of all GitHub Profile badges and Achievements
 
+
+<p align="center"><img src="./img/open-sourcerer/open-sourcerer-default.png" height="50px" width="50px"><img src="./img/heart-on-your-sleeve/heart-on-your-sleeve-default.png" height="50px" width="50px"><img src="./img/pair-extraordinaire/pair-extraordinaire-default.png" height="50px" width="50px"><img src="./img/starstruck/starstruck-default.png" height="50px" width="50px"><img src="./img/quickdraw/quickdraw-default.png" height="50px" width="50px"><img src="./img/pull-shark/pull-shark-default.png" height="50px" width="50px"><img src="./img/yolo/yolo-default.png" height="50px" width="50px"><img src="./img/galaxy-brain/galaxy-brain-default.png" height="50px" width="50px"><img src="./img/public-sponsor/public-sponsor-default.png" height="50px" weight="50px"><img src="./img/arctic-code-vault/arctic-code-vault-contributor-default.png" height="50px" weight="50px"><img src="./img/mars-2020-contributor/mars-2020-contributor-default.png" height="50px" weight="50px">
+</p >
+
+
 #### Displaying achievements on your profile is completely optional; by default, they can be seen by anyone viewing your public profile.
 
 You can opt out from having achievements displayed on your profile by going to your [profile settings](https://github.com/settings).
